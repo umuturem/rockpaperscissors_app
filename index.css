@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    background-color: rgb(255,253,208);
+    color: black;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title{
+
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    font-family: "Pacifico";
+}
+
+
+.move-icon{
+
+    height: 50px;
+}
+
+.move-button{
+
+    background-color: transparent;
+
+    border : 5px dotted red;
+
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 2s;
+
+
+
+}
+
+.move-button:hover{
+    background-color: greenyellow;
+    border: 5px solid red;
+    width: 250px;
+    height: 250px;
+
+    
+}
+
+.result{
+
+font-size: 25px ;
+
+}
+
+.reset-score-button{
+
+
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.reset-score-button:hover{
+
+
+    padding: 20px;
+}
