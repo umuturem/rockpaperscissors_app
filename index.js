@@ -78,7 +78,7 @@ function playGame(playerMove) {
      `You <img src="images/${playerMove}.jpg" class="move-icon"> 
      
      
-     <img src="images/${computerMove}.jpg" class="move-icon">
+     <img src="images/${computerMove}.jpg" class="move-icon"  >
      
      Computer`;
 
